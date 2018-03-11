@@ -1,0 +1,28 @@
+NUME: Gagea Elena-Miruna
+GRUPA: 324CC
+
+GRADUL DE DIFICULTATE: Mediu
+
+TIMPUL ALOCAT: 6 zile
+
+MOD DE IMPLEMENTARE:
+
+	Am implementat clasele concrete, clasa abstracta si interfata asa cum a fost sppecificat in cerinta.
+	Clasa gestiune am implementat-o folosind Singleton pattern, iar in aceasta am facut citirile din fisier in trei functii diferite: citireTaxe, citireProduse si citireFacturi.
+	Cele trei functii m-au ajutat sa populez Arrayurile "produse" si "magazine, si HashMap-ul "taxe". 
+
+	In clasa Gestiune mai am o functie care se numeste "task1" si care imi creeaza si imi scrie fisierul de output: out.txt.
+
+	In prima parte a functiei "task1" creez trei vectori "Mini", "Medium" si "Hyper", sortati conform cerintei, care contin fiecare magazinele de tipul sugerat de nume.
+
+	In cea de-a doua parte a functiei fac scrierea efectiva in fisierul out.txt. Scriu pe rand, informatiile cerute in cerinta pentru fiecare tip de magazin in parte.
+
+	In main imi declar un obiect de tip gestiune si apelez functiile explicate mai sus.
+
+INTERATA GRAFICA:
+	
+Punctul 1:
+	Am creeat o fereastra de login cu trei butoane si doua field-uri pentru text. Cele trei butoane sunt "Login", "Reset" si "Exit", iar cele doua fielduri de text sunt cel pentru nume si cel pentru parola.
+
+Punctul 2:
+	Am creeat de asemenea si o fereastra care sa primeasca cele trei fisiere text sursa.
